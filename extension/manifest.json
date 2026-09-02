@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Zen Tab Launcher",
+  "version": "0.1.0",
+  "description": "Expose Zen tabs to the Omarchy launcher and focus selected tabs.",
+  "permissions": ["tabs", "nativeMessaging", "contextualIdentities"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "zen-tab-launcher@local",
+      "strict_min_version": "128.0"
+    }
+  }
+}

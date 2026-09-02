@@ -1,0 +1,7 @@
+{
+  "name": "app.zen_tab_launcher",
+  "description": "Connect the Omarchy launcher to Zen tabs",
+  "path": "@ZEN_TAB_PATH@",
+  "type": "stdio",
+  "allowed_extensions": ["zen-tab-launcher@local"]
+}

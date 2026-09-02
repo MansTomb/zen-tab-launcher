@@ -1,0 +1,20 @@
+{
+  "targets": {
+    "mail": {
+      "name": "Mail",
+      "url": "https://mail.example.com/",
+      "favicon": "https://mail.example.com/favicon.ico",
+      "aliases": ["mail", "inbox"],
+      "match": "origin",
+      "open": "reuse-or-create"
+    },
+    "docs-new": {
+      "name": "New documentation tab",
+      "url": "https://docs.example.com/",
+      "aliases": ["docs"],
+      "match": "exact",
+      "open": "always-new"
+    }
+  },
+  "zenWindowClass": "zen"
+}
