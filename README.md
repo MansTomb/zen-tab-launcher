@@ -2,7 +2,7 @@
 
 Search open Zen Browser tabs from Omarchy's app launcher by title, domain, or URL. Press Enter to focus Zen and select the tab.
 
-Tabs use their favicons. Titles stay fixed until the URL changes, which prevents frequently updating sites from repainting the launcher. Saved targets remain searchable when closed and can also be opened from Hyprland keybindings.
+Saved targets remain searchable when closed and can also be opened from Hyprland keybindings.
 
 ## Install
 
